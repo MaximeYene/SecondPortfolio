@@ -1,0 +1,14 @@
+@font-face {
+    font-family: Inter;
+    src: url(../fonts/Inter-Regular.ttf);
+}
+:root
+{
+    --primary-color:#EDF5FE;
+    --primary-ruby-Red-color:#F22225;
+    --primary-mirage-color:#0F172A;
+}
+body
+{
+    font-family: Inter;
+}
