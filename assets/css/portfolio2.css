@@ -66,7 +66,12 @@ body
     font-weight: 700;
     line-height: 26px;
     letter-spacing: 0.02em;
-
+    transition: .5s;
+}
+.navbar-list a:hover,
+.navbar-list a.navbar-list-home
+{
+    color: var(--primary-ruby-Red-color);
 }
 .navbar-join
 {
@@ -77,6 +82,11 @@ body
     text-align: center;
     background-color: var(--primary-ruby-Red-color);
 }
+.navbar-join:hover
+{
+    background-color: var(--primary-mirage-color);
+    transition: 2s;
+}
 .navbar-join a
 {
     color: var(--white-color);
@@ -86,4 +96,8 @@ body
     letter-spacing: 0.02em;
     text-align: center;
     padding: 0 5%;
+}
+.navbar-join a:hover
+{
+    color: var(--primary-ruby-Red-color);
 }
