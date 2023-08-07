@@ -5,10 +5,85 @@
 :root
 {
     --primary-color:#EDF5FE;
+    --white-color:  #FAFAFA;
     --primary-ruby-Red-color:#F22225;
     --primary-mirage-color:#0F172A;
 }
 body
 {
     font-family: Inter;
+    padding: 0;
+    margin: 0;
+}
+.navbar
+{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+}
+.navbar a
+{
+    text-decoration: none;
+}
+.navbar-home
+{
+    width: 20%;
+    align-items: center;
+    text-align: center;
+}
+.navbar-home a
+{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.02em;
+    text-align: center;    
+}
+.navbar-home-red
+{
+    color: var(--primary-ruby-Red-color);
+}
+.navbar-home-black
+{
+    color: var(--primary-mirage-color);
+}
+.navbar-list
+{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    text-align: center;
+    
+}
+.navbar-list a
+{
+    color: #757B82;
+    ;
+    margin: 0 1%;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0.02em;
+
+}
+.navbar-join
+{
+    width: 10%;
+    padding: 8px;
+    margin-right: 3%;
+    border-radius: 8px;
+    text-align: center;
+    background-color: var(--primary-ruby-Red-color);
+}
+.navbar-join a
+{
+    color: var(--white-color);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    padding: 0 5%;
 }
