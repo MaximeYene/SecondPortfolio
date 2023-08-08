@@ -8,6 +8,7 @@
     --white-color:  #FAFAFA;
     --primary-ruby-Red-color:#F22225;
     --primary-mirage-color:#0F172A;
+    --primary-pureWhite-color:#FFFFFF;
 }
 body
 {
@@ -100,4 +101,110 @@ body
 .navbar-join a:hover
 {
     color: var(--primary-ruby-Red-color);
+}
+.secondPart
+{
+    width: 100%;
+    height: 700px;
+    background-color: #EDF5FE;
+    display: flex;
+}
+.secondPart-presentation
+{
+    width: 50%;
+}
+.secondPart-presentation-hello
+{
+    position: relative;
+    top: 200px;
+    left: 250px;
+}
+.secondPart-presentation-hello-svg1
+{
+    position: relative;
+    top: 15px;
+}
+.secondPart-presentation-hello-svg2
+{
+    position: relative;
+    bottom: 2px;
+    right: 7px;
+}
+.secondPart-presentation-hello a
+{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.20px;
+    letter-spacing: 2%;
+}
+.secondPart-presentation-hello-firstchild
+{
+    color: var(--primary-mirage-color);
+}
+.secondPart-presentation-hello-secondchild
+{
+    color: var(--primary-ruby-Red-color);
+}
+.secondPart-presentation-text
+{
+    position: relative;
+    top: 200px;
+    left: 250px;
+    width: 450px;
+    height: 200px;
+    text-align: center;
+}
+.secondPart-presentation-text-function
+{
+    font-size: 50px;
+    font-weight: 500;
+    letter-spacing: 2%;
+    line-height: 60px;
+}
+.secondPart-presentation-text-explication
+{
+    color: #757B82;
+    margin-top: 5%;
+    size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.secondPart-presentation-hire
+{
+    position: relative;
+    top: 220px;
+    left: 270px;
+    background-color: var(--primary-ruby-Red-color);
+    width: 13%;
+    text-align: center;
+    padding: 1.5%;
+    border-radius: 50px;
+}
+.secondPart-presentation-hire a
+{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.61px;
+    text-decoration: none;
+}
+.secondPart-presentation-hire svg
+{
+    position: relative;
+    top: 2.5px;
+}
+.secondPart-image-tall
+{
+    position: relative;
+    top: 150px;
+    left: 250px;
+}
+.secondPart-image-medium
+{
+    position: relative;
+    top: 120.5px;
+    right: 140px;
+}.secondPart-image-medium-low
+{
+    position: relative;
 }
