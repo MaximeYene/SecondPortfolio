@@ -428,6 +428,14 @@ body
 {
     font-size: 12px;
 }
+.fourthPart-presentation-lorem-about-blackColor
+{
+    color: var(--primary-mirage-color);
+}
+.fourthPart-presentation-lorem-about-redColor
+{
+    color: var(--primary-ruby-Red-color);
+}
 .fourthPart-presentation-lorem-paragraph-first
 {
     font-size: 20px;
@@ -487,7 +495,105 @@ body
     width: 60px;
     height: 60px;
 }
-
+.fifthPart
+{
+    border: 1px solid rebeccapurple;
+    margin: 8% 25%;
+}
+.fifthPart a
+{
+    text-decoration: none;
+    color: var(--primary-ruby-Red-color);
+}
+.fifthPart-header
+{
+    display: flex;
+    justify-content: space-between;
+}
+.fifthPart-header-icons
+{
+    display: flex;
+    justify-content: space-around;
+}
+.fifthPart-header-icons div
+{
+    border: 1px solid #DDDDDD;
+    height: max-content;
+    margin: 0 3%;
+}
+.fifthPart-header-about-firstPart
+{
+    font-size: 10px;
+}
+.fifthPart-header-about-secondPart
+{
+    font-size: 20px;
+    margin-bottom: 2%;
+}
+.fifthPart-header-about-blackColor
+{
+    color: var(--primary-mirage-color);
+}
+.fifthPart-header-about-redColor
+{
+    color: var(--primary-ruby-Red-color);
+}
+.fifthPart-middle-projects
+{
+    display: flex;
+    justify-content: space-between;
+}
+.fifthPart-middle-projects-illustration
+{
+    border: 1px solid rebeccapurple;
+    text-align: center;   
+}
+.fifthPart-middle-projects-illustration-img
+{
+    text-align: center;
+}
+.fifthPart-middle-projects-illustration-img img
+{
+    width: 150px;
+    height: 117px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px #93939321;
+}
+.fifthPart-middle-projects-illustration-name
+{
+    font-size: 12px;
+    margin-bottom: 0 2% 2% 2%;
+    color: var(--primary-ruby-Red-color);
+}
+.fifthPart-middle-projects-illustration-compaign
+{
+    font-size: 17px;
+    margin-bottom: 2%;
+    color: var(--primary-mirage-color);
+}
+.fifthPart-middle-projects-illustration-lorem
+{
+    font-size: 10px;
+    margin-bottom: 2%;
+    color: #757B82;
+}
+.fifthPart-middle-projects-illustration-views
+{
+    font-size: 12px;
+}
+.fifthPart-footer
+{
+    font-size: 14px;
+    text-align: center;
+    padding: 1%;
+    background-color: var(--primary-ruby-Red-color);
+    margin: 2% 40%;
+    border-radius: 50px;
+}
+.fifthPart-footer a
+{
+    color: var(--primary-color);
+}
 
 
 
