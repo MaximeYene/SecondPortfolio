@@ -104,7 +104,11 @@ body
     background-color: var(--primary-mirage-color);
     transition: 2s;
 }
-
+.navbar-join:hover a
+{
+    color: var(--primary-ruby-Red-color);
+    transition: 2s;
+}
 .navbar-join a 
 {
     color: var(--white-color);
@@ -115,13 +119,6 @@ body
     text-align: center;
     padding: 0 5%;
 }
-
-.navbar-join a:hover 
-{
-    color: var(--primary-ruby-Red-color);
-    transition: 2s;
-}
-
 .secondPart 
 {
     width: 100%;
@@ -219,6 +216,11 @@ body
     background-color: var(--primary-mirage-color);
     transition: 1s;
 }
+.secondPart-presentation-hire:hover a
+{
+    color: var(--primary-ruby-Red-color);
+    transition: 1s;
+}
 .secondPart-presentation-hire a 
 {
     color: var(--primary-color);
@@ -226,11 +228,6 @@ body
     font-weight: 400;
     line-height: 20.61px;
     text-decoration: none;
-}
-.secondPart-presentation-hire a:hover
-{
-    color: var(--primary-ruby-Red-color);
-    transition: 1s;
 }
 .secondPart-presentation-hire svg 
 {
@@ -374,40 +371,38 @@ body
 {
     margin: 0 26%;
     height: 100%;
-    border: 1px solid red;
 }
 .fourthPart-presentation
 {
     display: flex;
     width: 100%;
     height: 50%;
-    border: 1px solid red;
 }
 .fourthPart-presentation-img
 {
     width: 50%;
-    border: 1px solid red;
     display: flex;
     justify-content: space-between;
 }
 .fourthPart-presentation-img-firstPart
 {
     width: 50%;
-    border: 1px solid red;
+    margin-right: 2%;
 }
 .fourthPart-presentation-img-firstPart img
 {
     width: 163.38px;
     height: 262.13px;
+    border-radius: 8px;
 }
 .fourthPart-presentation-img-secondPart
 {
     width: 100%;
+    margin-left: 2%;
 }
 .fourthPart-presentation-img-secondPart-uno
 {
     height: 50%;
-    border: 1px solid red;
 }
 .fourthPart-presentation-img-secondPart-uno img
 {
@@ -417,23 +412,22 @@ body
 .fourthPart-presentation-img-secondPart-secondo
 {
     height: 50%;
-    border: 1px solid red;
 }
 .fourthPart-presentation-img-secondPart-secondo img
 {
     width: 159.39px;
-    height: 126px;  
+    height: 126px; 
+    border-radius: 8px; 
 }
 .fourthPart-presentation-lorem
 {
     width: 100%;
     text-align: left;
-    border: 1px solid red;
+    margin-left: 3%;
 }
 .fourthPart-presentation-lorem-about
 {
     font-size: 12px;
-    border: 1px solid red;
 }
 .fourthPart-presentation-lorem-paragraph-first
 {
@@ -443,7 +437,6 @@ body
 .fourthPart-presentation-lorem-paragraph-second
 {
     font-size: 13px;
-    border: 1px solid red;
     color: #757B82;
 }
 .fourthPart-presentation-lorem-download
@@ -479,7 +472,7 @@ body
 .fourthPart-pourcent
 {
     border: 1px solid red;
-    width: 100%;
+    
 }
 
 
