@@ -1,22 +1,29 @@
-@font-face {
+@font-face 
+{
     font-family: Inter;
     src: url(../fonts/Inter-Regular.ttf);
 }
-:root
+
+:root 
 {
-    --primary-color:#EDF5FE;
-    --white-color:  #FAFAFA;
-    --primary-ruby-Red-color:#F22225;
-    --primary-mirage-color:#0F172A;
-    --primary-pureWhite-color:#FFFFFF;
+    --primary-color: #EDF5FE;
+    --white-color: #FAFAFA;
+    --primary-ruby-Red-color: #F22225;
+    --primary-mirage-color: #0F172A;
+    --primary-pureWhite-color: #FFFFFF;
 }
-body
+
+body 
 {
     font-family: Inter;
     padding: 0;
     margin: 0;
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
 }
-.navbar
+
+.navbar 
 {
     display: inline-flex;
     justify-content: space-between;
@@ -24,44 +31,50 @@ body
     width: 100%;
     height: 100px;
 }
-.navbar a
+
+.navbar a 
 {
     text-decoration: none;
 }
-.navbar-home
+
+.navbar-home 
 {
     width: 20%;
     align-items: center;
     text-align: center;
 }
-.navbar-home a
+
+.navbar-home a 
 {
     font-size: 30px;
     font-weight: 700;
     line-height: 36px;
     letter-spacing: 0.02em;
-    text-align: center;    
+    text-align: center;
 }
-.navbar-home-red
+
+.navbar-home-red 
 {
     color: var(--primary-ruby-Red-color);
 }
-.navbar-home-black
+
+.navbar-home-black 
 {
     color: var(--primary-mirage-color);
 }
-.navbar-list
+
+.navbar-list 
 {
     display: flex;
     justify-content: space-around;
     width: 40%;
     text-align: center;
-    
+
 }
-.navbar-list a
+
+.navbar-list a 
 {
     color: #757B82;
-    ;
     margin: 0 1%;
     font-size: 14px;
     font-weight: 700;
@@ -69,12 +82,14 @@ body
     letter-spacing: 0.02em;
     transition: .5s;
 }
+
 .navbar-list a:hover,
-.navbar-list a.navbar-list-home
+.navbar-list a.navbar-list-home 
 {
     color: var(--primary-ruby-Red-color);
 }
-.navbar-join
+
+.navbar-join 
 {
     width: 10%;
     padding: 8px;
@@ -83,12 +98,18 @@ body
     text-align: center;
     background-color: var(--primary-ruby-Red-color);
 }
-.navbar-join:hover
+
+.navbar-join:hover 
 {
     background-color: var(--primary-mirage-color);
     transition: 2s;
 }
-.navbar-join a
+.navbar-join:hover a
+{
+    color: var(--primary-ruby-Red-color);
+    transition: 2s;
+}
+.navbar-join a 
 {
     color: var(--white-color);
     font-size: 20px;
@@ -98,39 +119,43 @@ body
     text-align: center;
     padding: 0 5%;
 }
-.navbar-join a:hover
-{
-    color: var(--primary-ruby-Red-color);
-}
-.secondPart
+.secondPart 
 {
     width: 100%;
-    height: 700px;
+    height: 500px;
     background-color: #EDF5FE;
     display: flex;
+    justify-content: space-between;
+    flex-direction: row;
 }
-.secondPart-presentation
+
+.secondPart-presentation 
 {
-    width: 50%;
+    width: 40%;
+    height: auto;
 }
-.secondPart-presentation-hello
+
+.secondPart-presentation-hello 
 {
     position: relative;
-    top: 200px;
-    left: 250px;
+    top: 120px;
+    left: 100px;
 }
-.secondPart-presentation-hello-svg1
+
+.secondPart-presentation-hello-svg1 
 {
     position: relative;
     top: 15px;
 }
-.secondPart-presentation-hello-svg2
+
+.secondPart-presentation-hello-svg2 
 {
     position: relative;
     bottom: 2px;
     right: 7px;
 }
-.secondPart-presentation-hello a
+
+.secondPart-presentation-hello a 
 {
     text-decoration: none;
     font-size: 14px;
@@ -138,31 +163,35 @@ body
     line-height: 17.20px;
     letter-spacing: 2%;
 }
-.secondPart-presentation-hello-firstchild
+
+.secondPart-presentation-hello-firstchild 
 {
     color: var(--primary-mirage-color);
 }
-.secondPart-presentation-hello-secondchild
+
+.secondPart-presentation-hello-secondchild 
 {
     color: var(--primary-ruby-Red-color);
 }
-.secondPart-presentation-text
+
+.secondPart-presentation-text 
 {
     position: relative;
-    top: 200px;
-    left: 250px;
+    top: 120px;
+    left: 100px;
     width: 450px;
     height: 200px;
     text-align: center;
 }
-.secondPart-presentation-text-function
+
+.secondPart-presentation-text-function 
 {
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 500;
-    letter-spacing: 2%;
     line-height: 60px;
 }
-.secondPart-presentation-text-explication
+
+.secondPart-presentation-text-explication 
 {
     color: #757B82;
     margin-top: 5%;
@@ -170,41 +199,307 @@ body
     font-weight: 400;
     line-height: 25px;
 }
-.secondPart-presentation-hire
+
+.secondPart-presentation-hire 
 {
     position: relative;
-    top: 220px;
-    left: 270px;
+    top: 140px;
+    left: 120px;
     background-color: var(--primary-ruby-Red-color);
-    width: 13%;
+    width: max-content;
     text-align: center;
     padding: 1.5%;
     border-radius: 50px;
 }
-.secondPart-presentation-hire a
+.secondPart-presentation-hire:hover
 {
+    background-color: var(--primary-mirage-color);
+    transition: 1s;
+}
+.secondPart-presentation-hire:hover a
+{
+    color: var(--primary-ruby-Red-color);
+    transition: 1s;
+}
+.secondPart-presentation-hire a 
+{
+    color: var(--primary-color);
     font-size: 16px;
     font-weight: 400;
     line-height: 20.61px;
     text-decoration: none;
 }
-.secondPart-presentation-hire svg
+.secondPart-presentation-hire svg 
 {
     position: relative;
     top: 2.5px;
 }
-.secondPart-image-tall
+
+.secondPart-image 
 {
+    width: 60%;
+    height: auto;
+    align-items: center;
     position: relative;
-    top: 150px;
-    left: 250px;
 }
-.secondPart-image-medium
+
+.secondPart-image-tall 
+{
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+}
+
+.secondPart-image-middle 
+{
+    position: absolute;
+    bottom: 17%;
+    left: 20%;
+    z-index: 2;
+}
+
+.secondPart-image-low 
+{
+    position: absolute;
+    right: 30%;
+    z-index: 10;
+}
+.secondPart-image img 
+{
+    position: absolute;
+    width: 540px;
+    top: 140px;
+    height: auto;
+    z-index: 20;
+}
+.thirdPart
+{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 5% 0;
+}
+.thirdPart-header
+{
+    margin: 0 0 1% 0;
+}
+.thirdPart-header-top
+{
+    margin: 0 40%;
+    font-size: 14px;
+}
+.thirdPart-header-top a
+{
+    text-decoration: none;
+}
+.thirdPart-header-top-primary
+{
+    color: var(--primary-mirage-color);
+}
+.thirdPart-header-top-second
+{
+    color: var(--primary-ruby-Red-color);
+}
+.thirdPart-header-bottom
+{
+    margin: 0 35%;
+
+    color: var(--primary-mirage-color);
+    font-size: 30px;
+}
+.thirdPart-middle
+{
+    color: #757B82;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    align-items: center;
+    margin: 0 25%;
+}
+.thirdPart-middle-first, .thirdPart-middle-second, .thirdPart-middle-third
+{
+    margin: 0 1%;
+    box-shadow: 9px 9px 9px 9px #93939321;
+}
+.thirdPart-middle-first:hover, .thirdPart-middle-second:hover, .thirdPart-middle-third:hover
+{
+    color: var(--primary-color);
+    background-color: var(--primary-ruby-Red-color);
+    transition: 2s;
+}
+.thirdPart-middle-first:hover .thirdPart-middle-first-read a
+{
+    color: var(--primary-mirage-color);
+    transition: 2s;
+}
+.thirdPart-middle-second:hover .thirdPart-middle-second-read a
+{
+    color: var(--primary-mirage-color);
+    transition: 2s;
+}
+.thirdPart-middle-third:hover .thirdPart-middle-third-read a
+{
+    color: var(--primary-mirage-color); 
+    transition: 2s; 
+}
+.thirdPart-middle-first-img, .thirdPart-middle-second-img, .thirdPart-middle-third-img
+{
+    color: var(--primary-mirage-color);
+}
+.thirdPart-middle-first-spec, .thirdPart-middle-second-spec, .thirdPart-middle-third-spec
+{
+    color: var(--primary-mirage-color);
+    font-size: 20px;
+    margin-bottom: .5%;
+}
+.thirdPart-middle-first-lorem, .thirdPart-middle-second-lorem, .thirdPart-middle-third-lorem
+{
+    font-size: 12px;
+}
+.thirdPart-middle-first-read, .thirdPart-middle-second-read, .thirdPart-middle-third-read
 {
     position: relative;
-    top: 120.5px;
-    right: 140px;
-}.secondPart-image-medium-low
+    width: max-content;
+}
+.thirdPart-middle-first-read a, .thirdPart-middle-second-read a, .thirdPart-middle-third-read a
+{
+    text-decoration: none;
+    color: var(--primary-ruby-Red-color);
+    font-size: 14px;
+}
+.fourthPart
+{
+    margin: 0 26%;
+    height: 100%;
+}
+.fourthPart-presentation
+{
+    display: flex;
+    width: 100%;
+    height: 50%;
+}
+.fourthPart-presentation-img
+{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.fourthPart-presentation-img-firstPart
+{
+    width: 50%;
+    margin-right: 2%;
+}
+.fourthPart-presentation-img-firstPart img
+{
+    width: 163.38px;
+    height: 262.13px;
+    border-radius: 8px;
+}
+.fourthPart-presentation-img-secondPart
+{
+    width: 100%;
+    margin-left: 2%;
+}
+.fourthPart-presentation-img-secondPart-uno
+{
+    height: 50%;
+}
+.fourthPart-presentation-img-secondPart-uno img
+{
+    width: 159.39px;
+    height: 126px;
+}
+.fourthPart-presentation-img-secondPart-secondo
+{
+    height: 50%;
+}
+.fourthPart-presentation-img-secondPart-secondo img
+{
+    width: 159.39px;
+    height: 126px; 
+    border-radius: 8px; 
+}
+.fourthPart-presentation-lorem
+{
+    width: 100%;
+    text-align: left;
+    margin-left: 3%;
+}
+.fourthPart-presentation-lorem-about
+{
+    font-size: 12px;
+}
+.fourthPart-presentation-lorem-paragraph-first
+{
+    font-size: 20px;
+    margin-bottom: 2%;
+}
+.fourthPart-presentation-lorem-paragraph-second
+{
+    font-size: 13px;
+    color: #757B82;
+}
+.fourthPart-presentation-lorem-download
 {
     position: relative;
+    
+    width: 40%;
+    padding: 2%;
+    background-color: var(--primary-ruby-Red-color);
+    border-radius: 50px;
+}
+.fourthPart-presentation-lorem-download:hover
+{
+    color: var(--primary-ruby-Red-color);
+    background-color: var(--primary-mirage-color);
+    transition: 2s;
+}
+.fourthPart-presentation-lorem-download:hover a
+{
+    color: var(--primary-ruby-Red-color);
+    transition: 2s;
+}
+.fourthPart-presentation-lorem-download a
+{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+.fourthPart-presentation-lorem-download svg
+{
+    position: absolute;
+    top: 5px;
+}
+.fourthPart-pourcent
+{
+    border: 1px solid red;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:600px) 
+{
+    .secondPart {
+        flex-direction: column;
+    }
+
+    .secondPart-presentation,
+    .secondPart-image {
+        width: 100%;
+    }
+
+    .navbar-list {
+        display: none;
+    }
 }
