@@ -382,7 +382,6 @@ body
 {
     width: 50%;
     display: flex;
-    justify-content: space-between;
 }
 .fourthPart-presentation-img-firstPart
 {
@@ -391,7 +390,7 @@ body
 }
 .fourthPart-presentation-img-firstPart img
 {
-    width: 163.38px;
+    width: 118px;
     height: 262.13px;
     border-radius: 8px;
 }
@@ -406,8 +405,8 @@ body
 }
 .fourthPart-presentation-img-secondPart-uno img
 {
-    width: 159.39px;
-    height: 126px;
+    width: 126px;
+    height: 130px;
 }
 .fourthPart-presentation-img-secondPart-secondo
 {
@@ -415,15 +414,15 @@ body
 }
 .fourthPart-presentation-img-secondPart-secondo img
 {
-    width: 159.39px;
-    height: 126px; 
+    width: 126px;
+    height: 130px; 
     border-radius: 8px; 
 }
 .fourthPart-presentation-lorem
 {
     width: 100%;
     text-align: left;
-    margin-left: 3%;
+    margin-left: 6%;
 }
 .fourthPart-presentation-lorem-about
 {
@@ -436,14 +435,13 @@ body
 }
 .fourthPart-presentation-lorem-paragraph-second
 {
-    font-size: 13px;
+    font-size: 12px;
     color: #757B82;
 }
 .fourthPart-presentation-lorem-download
 {
-    position: relative;
-    
-    width: 40%;
+    margin-top: 5%;
+    width: max-content;
     padding: 2%;
     background-color: var(--primary-ruby-Red-color);
     border-radius: 50px;
@@ -461,18 +459,33 @@ body
 }
 .fourthPart-presentation-lorem-download a
 {
+    font-size: 16px;
     text-decoration: none;
     color: var(--primary-color);
 }
-.fourthPart-presentation-lorem-download svg
-{
-    position: absolute;
-    top: 5px;
-}
 .fourthPart-pourcent
 {
-    border: 1px solid red;
-    
+    margin-top: 8%;
+    padding: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.fourthPart-pourcent-first, .fourthPart-pourcent-second, .fourthPart-pourcent-third, .fourthPart-pourcent-fourth
+{
+    text-align: center;
+    box-shadow: 8px 8px 8px 8px #93939321;
+    margin: 2%;
+    padding: 2%;
+}
+.fourthPart-pourcent-first div, .fourthPart-pourcent-second div, .fourthPart-pourcent-third div, .fourthPart-pourcent-fourth div
+{
+    color: var(--primary-mirage-color);
+    font-size: 12px;
+}
+.fourthPart-pourcent img
+{
+    width: 60px;
+    height: 60px;
 }
 
 
@@ -498,8 +511,9 @@ body
     .secondPart-image {
         width: 100%;
     }
-
-    .navbar-list {
-        display: none;
+    .fourthPart-presentation
+    {
+        flex-direction: column;
     }
+
 }
