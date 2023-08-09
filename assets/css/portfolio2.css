@@ -19,7 +19,8 @@ body
     padding: 0;
     margin: 0;
     width: 100%;
-    overflow: hidden;
+    height: auto;
+    overflow-x: hidden;
 }
 
 .navbar 
@@ -118,6 +119,7 @@ body
 .navbar-join a:hover 
 {
     color: var(--primary-ruby-Red-color);
+    transition: 2s;
 }
 
 .secondPart 
@@ -257,7 +259,6 @@ body
     bottom: 17%;
     left: 20%;
     z-index: 2;
-    background-color: ;
 }
 
 .secondPart-image-low 
@@ -274,6 +275,113 @@ body
     height: auto;
     z-index: 20;
 }
+.thirdPart
+{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 5% 0;
+}
+.thirdPart-header
+{
+    margin: 0 0 1% 0;
+}
+.thirdPart-header-top
+{
+    margin: 0 40%;
+    font-size: 14px;
+}
+.thirdPart-header-top a
+{
+    text-decoration: none;
+}
+.thirdPart-header-top-primary
+{
+    color: var(--primary-mirage-color);
+}
+.thirdPart-header-top-second
+{
+    color: var(--primary-ruby-Red-color);
+}
+.thirdPart-header-bottom
+{
+    margin: 0 35%;
+
+    color: var(--primary-mirage-color);
+    font-size: 30px;
+}
+.thirdPart-middle
+{
+    color: var(--primary-mirage-color);
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    align-items: center;
+    margin: 0 25%;
+}
+.thirdPart-middle-first, .thirdPart-middle-second, .thirdPart-middle-third
+{
+    margin: 0 1%;
+    box-shadow: 9px 9px 9px 9px #93939321;
+}
+.thirdPart-middle-first:hover, .thirdPart-middle-second:hover, .thirdPart-middle-third:hover
+{
+    color: var(--primary-color);
+    background-color: var(--primary-ruby-Red-color);
+    transition: 2s;
+}
+.thirdPart-middle-first:hover .thirdPart-middle-first-read a
+{
+    color: var(--primary-color);
+    transition: 2s;
+}
+.thirdPart-middle-second:hover .thirdPart-middle-second-read a
+{
+    color: var(--primary-color);
+    transition: 2s;
+}
+.thirdPart-middle-third:hover .thirdPart-middle-third-read a
+{
+    color: var(--primary-color); 
+    transition: 2s; 
+}
+.thirdPart-middle-first-img, .thirdPart-middle-second-img, .thirdPart-middle-third-img
+{
+    color: var(--primary-mirage-color);
+}
+.thirdPart-middle-first-spec, .thirdPart-middle-second-spec, .thirdPart-middle-third-spec
+{
+    font-size: 20px;
+    margin-bottom: .5%;
+}
+.thirdPart-middle-first-lorem, .thirdPart-middle-second-lorem, .thirdPart-middle-third-lorem
+{
+    font-size: 12px;
+}
+.thirdPart-middle-first-read, .thirdPart-middle-second-read, .thirdPart-middle-third-read
+{
+    position: relative;
+    width: max-content;
+}
+.thirdPart-middle-first-read a, .thirdPart-middle-second-read a, .thirdPart-middle-third-read a
+{
+    text-decoration: none;
+    color: var(--primary-mirage-color);
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media only screen and (max-width:600px) 
 {
