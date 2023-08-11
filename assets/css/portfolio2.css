@@ -924,6 +924,44 @@ body
     text-decoration: none;
     color: var(--primary-ruby-Red-color);
 }
+.footerPart
+{
+    background-color: #12141E;
+    text-align: center;
+    padding: 5%;
+}
+.footerPart-header-redColor
+{
+    color: var(--primary-ruby-Red-color);
+}
+.footerPart-header-whiteColor
+{
+    color: var(--primary-color);
+}
+.footerPart-footer
+{
+    margin: 2%;
+}
+.footerPart-body
+{
+    margin-top: 2%;
+}
+.footerPart-body a
+{
+    text-decoration: none;
+    color: var(--primary-color);
+    border-right: 2px solid var(--primary-color);
+    padding: 0 .5%;
+}
+.footerPart-footer img
+{
+    width: 20px;
+    height: 20px;
+    margin: 0 1%;
+    background-color: var(--primary-ruby-Red-color);
+    padding: .3%;
+    border-radius: 50px;
+}
 
 
 
