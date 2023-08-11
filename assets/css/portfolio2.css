@@ -665,7 +665,7 @@ body
 }
 .sixthPart-middle-img
 {
-    wi
+    width: max-content;
     box-shadow: 8px 8px 8px 8px #93939321;
     text-align: center;
 }
@@ -762,8 +762,168 @@ body
 .eightPart
 {
     margin: 0 25%;
+    display: flex;
+    justify-content: space-around;
 }
-
+.eightPart-formular
+{
+    width: 100%;
+}
+.eightPart-formular-header
+{
+    width: 100%;
+}
+.eightPart-formular-header-name
+{
+    font-size: 10px;
+}
+.eightPart-formular-header-name-blackColor
+{
+    color: var(--primary-mirage-color);
+}
+.eightPart-formular-header-name-redColor
+{
+    color: var(--primary-ruby-Red-color);
+}
+.eightPart-formular-header-title
+{
+    font-size: 18px;
+    margin: 3%;
+}
+.eightPart-formular-middle
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.eightPart-formular-middle-PartOne
+{
+    width: 50%; 
+}
+.eightPart-formular-middle-PartTwo
+{
+    width: 50%; 
+}
+.eightPart-formular-middle input
+{
+    width: 100%;
+    margin: 4% 0;
+    padding: 0;
+    line-height: 2em;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-width: 1px;
+    outline: none;
+}
+.eightPart-formular-endForm
+{
+    margin: 4% 0;
+}
+.eightPart-formular-endForm input
+{
+    width: 100%;
+    line-height: 2em;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-width: 1px; 
+    outline: none;   
+}
+.eightPart-img
+{
+    text-align: left;
+    width: 100%;
+    height: auto;
+}
+.eightPart-img img
+{
+    width: 180px;
+    height: auto;
+}
+.eightPart-formular-footer
+{
+    width: max-content;
+    background-color: var(--primary-ruby-Red-color);
+    padding: 2%;
+}
+.eightPart-formular-footer:hover
+{
+    color: var(--primary-ruby-Red-color);
+    background-color: var(--primary-mirage-color);
+    transition: 2s;
+}
+.eightPart-formular-footer img
+{
+    height: 10px;
+    width: 10px;
+}
+.ninethPart
+{
+    margin: 8% 25%;
+}
+.ninethPart-header
+{
+    text-align: center;
+    margin: 1%;
+}
+.ninethPart-header-name
+{
+    font-size: 12px;
+    margin: 1%;
+}
+.ninethPart-header-name-blackColor
+{
+    color: var(--primary-mirage-color);
+}
+.ninethPart-header-name-redColor
+{
+    color: var(--primary-ruby-Red-color);
+}
+.ninethPart-header-title
+{
+    font-size: 18px;
+}
+.ninethPart-body
+{
+    display: flex;
+    justify-content: space-between;
+}
+.ninethPart-middle
+{
+    box-shadow: 4px 4px 4px 4px #93939321;
+    border-radius: 10px;
+    margin: 0 1%;
+}
+.ninethPart-middle-img img
+{
+    width: 220px;
+    height: 150px;
+}
+.ninethPart-middle-title
+{
+    font-size: 12px;
+    color: var(--primary-ruby-Red-color);
+    margin: 1%;
+}
+.ninethPart-middle-name
+{
+    font-size: 16px;
+    color: var(--primary-mirage-color);
+    margin: 1%;
+}
+.ninethPart-middle-lorem
+{
+    font-size: 10px;
+    color: #757B82;
+    margin: 1%;
+}
+.ninethPart-middle-footer a
+{
+    font-size: 12px;
+    text-decoration: none;
+    color: var(--primary-ruby-Red-color);
+}
 
 
 
