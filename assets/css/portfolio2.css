@@ -119,29 +119,117 @@ body
     text-align: center;
     padding: 0 5%;
 }
-.secondPart 
+.secondPart
 {
     width: 100%;
-    height: 500px;
-    background-color: #EDF5FE;
+    height: 410px;
     display: flex;
-    justify-content: space-between;
-    flex-direction: row;
+    background-color: #EDF5FE;
 }
-
-.secondPart-presentation 
+.secondPart-presentation
 {
-    width: 40%;
-    height: auto;
+    margin: 5%;
+    width: 80%;
+    height: max-content;
+    padding: 2%;
 }
-
-.secondPart-presentation-hello 
+.secondPart-presentation-hello
+{
+    font-size: 12px;
+    margin: 3%;
+}
+.secondPart-presentation-hello-blackColor
+{
+    color: var(--primary-mirage-color);
+}
+.secondPart-presentation-hello-redColor
+{
+    color: var(--primary-ruby-Red-color);
+}
+.secondPart-presentation-spec
+{
+    width: 80%;
+    text-align: center;
+    font-size: 35px;
+}
+.secondPart-presentation-lorem
+{
+    width: 70%;
+    font-size: 12px;
+    margin: 3%;
+}
+.secondPart-presentation-hire
+{
+    width: max-content;
+    background-color: var(--primary-ruby-Red-color);
+    margin: 3%;
+    padding: 0 .7%;
+    border-radius: 50px;
+}
+.secondPart-presentation-hire:hover
+{
+    background-color: var(--primary-mirage-color);
+    transition: 2s;
+}
+.secondPart-presentation-hire:hover a
+{
+    color: var(--primary-ruby-Red-color);
+    transition: 2s;
+}
+.secondPart-presentation-hire a
+{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+.secondPart-presentation-hire img
+{
+    width: 10px;
+    height: 10px;
+}
+.secondPart-image
+{
+    width: 100%;
+    text-align: center;
+    padding-right: 20%;
+}
+.secondPart-image-img
+{
+    height: auto;
+    align-items: center;
+    margin: 0 30%;
+}
+.secondPart-image-img-image1 img
 {
     position: relative;
-    top: 120px;
-    left: 100px;
+    width: 200px;
+    height: auto;
+    top: 100px;
+    z-index: 1;
 }
-
+.secondPart-image-img-image2 img
+{
+    position: relative;
+    width: 150px;
+    bottom: 77px;
+    height: auto;
+    z-index: 2;
+}
+.secondPart-image-img-image3 img
+{
+    position: relative;
+    width: 100px;
+    bottom: 205px;
+    height: auto;
+    z-index: 3;
+}
+.secondPart-image-img-image4 img
+{
+    position: relative;
+    width: 250px;
+    bottom: 395px;
+    height: auto;
+    z-index: 4;
+}
 .secondPart-presentation-hello-svg1 
 {
     position: relative;
@@ -153,124 +241,6 @@ body
     position: relative;
     bottom: 2px;
     right: 7px;
-}
-
-.secondPart-presentation-hello a 
-{
-    text-decoration: none;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 17.20px;
-    letter-spacing: 2%;
-}
-
-.secondPart-presentation-hello-firstchild 
-{
-    color: var(--primary-mirage-color);
-}
-
-.secondPart-presentation-hello-secondchild 
-{
-    color: var(--primary-ruby-Red-color);
-}
-
-.secondPart-presentation-text 
-{
-    position: relative;
-    top: 120px;
-    left: 100px;
-    width: 450px;
-    height: 200px;
-    text-align: center;
-}
-
-.secondPart-presentation-text-function 
-{
-    font-size: 40px;
-    font-weight: 500;
-    line-height: 60px;
-}
-
-.secondPart-presentation-text-explication 
-{
-    color: #757B82;
-    margin-top: 5%;
-    size: 15px;
-    font-weight: 400;
-    line-height: 25px;
-}
-
-.secondPart-presentation-hire 
-{
-    position: relative;
-    top: 140px;
-    left: 120px;
-    background-color: var(--primary-ruby-Red-color);
-    width: max-content;
-    text-align: center;
-    padding: 1.5%;
-    border-radius: 50px;
-}
-.secondPart-presentation-hire:hover
-{
-    background-color: var(--primary-mirage-color);
-    transition: 1s;
-}
-.secondPart-presentation-hire:hover a
-{
-    color: var(--primary-ruby-Red-color);
-    transition: 1s;
-}
-.secondPart-presentation-hire a 
-{
-    color: var(--primary-color);
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 20.61px;
-    text-decoration: none;
-}
-.secondPart-presentation-hire svg 
-{
-    position: relative;
-    top: 2.5px;
-}
-
-.secondPart-image 
-{
-    width: 60%;
-    height: auto;
-    align-items: center;
-    position: relative;
-}
-
-.secondPart-image-tall 
-{
-    position: absolute;
-    bottom: 0;
-    z-index: 1;
-}
-
-.secondPart-image-middle 
-{
-    position: absolute;
-    bottom: 17%;
-    left: 20%;
-    z-index: 2;
-}
-
-.secondPart-image-low 
-{
-    position: absolute;
-    right: 30%;
-    z-index: 10;
-}
-.secondPart-image img 
-{
-    position: absolute;
-    width: 540px;
-    top: 140px;
-    height: auto;
-    z-index: 20;
 }
 .thirdPart
 {
@@ -305,7 +275,7 @@ body
     margin: 0 35%;
 
     color: var(--primary-mirage-color);
-    font-size: 30px;
+    font-size: 25px;
 }
 .thirdPart-middle
 {
@@ -349,7 +319,7 @@ body
 .thirdPart-middle-first-spec, .thirdPart-middle-second-spec, .thirdPart-middle-third-spec
 {
     color: var(--primary-mirage-color);
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: .5%;
 }
 .thirdPart-middle-first-lorem, .thirdPart-middle-second-lorem, .thirdPart-middle-third-lorem
@@ -369,7 +339,7 @@ body
 }
 .fourthPart
 {
-    margin: 0 26%;
+    margin: 5% 26%;
     height: 100%;
 }
 .fourthPart-presentation
@@ -385,13 +355,13 @@ body
 }
 .fourthPart-presentation-img-firstPart
 {
-    width: 50%;
+    width: 60%;
     margin-right: 2%;
 }
 .fourthPart-presentation-img-firstPart img
 {
-    width: 118px;
-    height: 262.13px;
+    width: 150px;
+    height: auto;
     border-radius: 8px;
 }
 .fourthPart-presentation-img-secondPart
@@ -405,17 +375,18 @@ body
 }
 .fourthPart-presentation-img-secondPart-uno img
 {
-    width: 126px;
-    height: 130px;
+    width: 97px;
+    height: auto;
+    border-radius: 8px; 
 }
 .fourthPart-presentation-img-secondPart-secondo
 {
-    height: 50%;
+    height: 100%;
 }
 .fourthPart-presentation-img-secondPart-secondo img
 {
-    width: 126px;
-    height: 130px; 
+    width: 97px;
+    height: auto; 
     border-radius: 8px; 
 }
 .fourthPart-presentation-lorem
@@ -438,12 +409,12 @@ body
 }
 .fourthPart-presentation-lorem-paragraph-first
 {
-    font-size: 20px;
+    font-size: 16px;
     margin-bottom: 2%;
 }
 .fourthPart-presentation-lorem-paragraph-second
 {
-    font-size: 12px;
+    font-size: 10px;
     color: #757B82;
 }
 .fourthPart-presentation-lorem-download
@@ -467,7 +438,7 @@ body
 }
 .fourthPart-presentation-lorem-download a
 {
-    font-size: 16px;
+    font-size: 12px;
     text-decoration: none;
     color: var(--primary-color);
 }
@@ -513,7 +484,11 @@ body
 {
     display: flex;
     justify-content: space-around;
-    margin-right: 7%;
+}
+.fifthPart-header-icons:hover
+{
+    color: var(--primary-ruby-Red-color);
+    transition: 1s;
 }
 .fifthPart-header-icons div
 {
@@ -564,7 +539,8 @@ body
 }
 .fifthPart-middle-projects-illustration
 {
-    text-align: center;   
+    text-align: center; 
+    box-shadow: 3px 3px 3px 3px #93939321;  
 }
 .fifthPart-middle-projects-illustration-img
 {
@@ -572,10 +548,8 @@ body
 }
 .fifthPart-middle-projects-illustration-img img
 {
-    width: 150px;
-    height: 117px;
-    border-radius: 10px;
-    box-shadow: 5px 5px 5px 5px #93939321;
+    width: 195px;
+    height: auto;
 }
 .fifthPart-middle-projects-illustration-name
 {
@@ -605,7 +579,7 @@ body
     text-align: center;
     padding: 1%;
     background-color: var(--primary-ruby-Red-color);
-    margin: 2% 40%;
+    margin: 10% 40%;
     border-radius: 50px;
 }
 .fifthPart-footer a
@@ -826,6 +800,10 @@ body
     font-size: 18px;
     margin: 3%;
 }
+.eightPart-formular-header-title-border
+{
+    border-bottom: 1px solid var(--primary-ruby-Red-color);
+}
 .eightPart-formular-middle
 {
     width: 100%;
@@ -835,6 +813,7 @@ body
 .eightPart-formular-middle-PartOne
 {
     width: 50%; 
+    margin: 0 10px 0 0;
 }
 .eightPart-formular-middle-PartTwo
 {
@@ -852,6 +831,15 @@ body
     border-bottom-width: 1px;
     outline: none;
 }
+.eightPart-formular-middle input:hover
+{
+    border-color: #499AFA;
+    transition: 1s;
+}
+.eightPart-formular-middle input:hover, .eightPart-formular-middle-PartOne-name
+{
+    border-color: #499AFA;
+}
 .eightPart-formular-endForm
 {
     margin: 4% 0;
@@ -865,6 +853,11 @@ body
     border-right: none;
     border-bottom-width: 1px; 
     outline: none;   
+}
+.eightPart-formular-endForm input:hover
+{
+    border-color: #499AFA;
+    transition: 1s;
 }
 .eightPart-img
 {
@@ -998,6 +991,11 @@ body
     padding: .3%;
     border-radius: 50px;
 }
+.footerPart-line
+{
+    border-bottom: .5px solid var(--primary-color);
+}
+
 
 
 
