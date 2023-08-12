@@ -322,6 +322,8 @@ body
 {
     background-color: var(--primary-ruby-Red-color);
     color: var(--primary-color);
+    transition: 2s;
+    transform: scale(1.05);
 }
 
 .thirdPart-middle-part1-spec
@@ -363,6 +365,7 @@ body
     color: var(--primary-color);
     background-color: var(--primary-ruby-Red-color);
     transition: 2s;
+    transform: scale(1.05);
 }
 .thirdPart-middle-part:hover a
 {
