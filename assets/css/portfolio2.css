@@ -162,13 +162,17 @@ body
 {
     width: max-content;
     background-color: var(--primary-ruby-Red-color);
-    margin: 3% 0;
     padding: 10px 20px;
     border-radius: 50px;
 }
 .secondPart-presentation-hire:hover
 {
     background-color: var(--primary-mirage-color);
+    transition: 2s;
+}
+.secondPart-presentation-hire:hover svg
+{
+    color: var(--primary-ruby-Red-color);
     transition: 2s;
 }
 .secondPart-presentation-hire:hover a
@@ -182,10 +186,13 @@ body
     font-size: 16px;
     color: var(--primary-color);
 }
-.secondPart-presentation-hire img
+.secondPart-presentation-hire svg
 {
-    width: 10px;
-    height: 10px;
+    position: relative;
+    top: 5px;
+    width: 20px;
+    height: auto;
+    color: var(--primary-color);
 }
 .secondPart-image
 {
@@ -252,7 +259,7 @@ body
 }
 .thirdPart-header
 {
-    margin: 0 0 1% 0;
+    margin: 5% 0;
 }
 .thirdPart-header-top
 {
@@ -355,6 +362,17 @@ body
 {
     color: var(--primary-color);
     background-color: var(--primary-ruby-Red-color);
+    transition: 2s;
+}
+.thirdPart-middle-part:hover a
+{
+    color: var(--primary-color);
+    transition: 2s;
+}
+.thirdPart-middle-part:hover .thirdPart-middle-part-lorem
+{
+    color: var(--primary-color);
+    transition: 2s;
 }
 .thirdPart-middle-part-img img
 {
@@ -509,6 +527,7 @@ body
 {
     display: flex;
     justify-content: space-between;
+    margin: 5% 0;
 }
 .fifthPart-header-icons
 {
@@ -586,18 +605,20 @@ body
 .fifthPart-middle-projects-illustration-name
 {
     font-size: 16px;
-    margin: 4% 0;
+    margin: 4% 5%;
     color: var(--primary-ruby-Red-color);
 }
 .fifthPart-middle-projects-illustration-compaign
 {
     font-size: 20px;
+    margin: 0 5%;
     margin-bottom: 4%;
     color: var(--primary-mirage-color);
 }
 .fifthPart-middle-projects-illustration-lorem
 {
     font-size: 14px;
+    margin: 0 5%;
     margin-bottom: 4%;
     color: #757B82;
 }
@@ -605,6 +626,7 @@ body
 {
     position: relative;
     font-size: 16px;
+    margin: 0 5%;
     margin-bottom: 4%;
 }
 .fifthPart-middle-projects-illustration-views svg
@@ -642,7 +664,7 @@ body
 .sixthPart-first
 {
     text-align: center;
-    margin: 1% 0;
+    margin: 5%;
 }
 .sixthPart-header
 {
@@ -748,6 +770,7 @@ body
 .seventhPart-header
 {
 	text-align: center;
+    margin: 5%;
 }
 .seventhPart-header-name
 {
@@ -948,7 +971,7 @@ body
 .ninethPart-header
 {
     text-align: center;
-    margin: 1%;
+    margin: 5%;
 }
 .ninethPart-header-name
 {
@@ -987,19 +1010,19 @@ body
 {
     font-size: 16px;
     color: var(--primary-ruby-Red-color);
-    margin: 3%;
+    margin: 3% 5%;
 }
 .ninethPart-middle-name
 {
     font-size: 25px;
     color: var(--primary-mirage-color);
-    margin: 1%;
+    margin: 3% 5%;
 }
 .ninethPart-middle-lorem
 {
     font-size: 14px;
     color: #757B82;
-    margin: 3%;
+    margin: 3% 5%;
 }
 .ninethPart-middle-footer
 {
@@ -1010,6 +1033,7 @@ body
     font-size: 16px;
     text-decoration: none;
     color: var(--primary-ruby-Red-color);
+    margin: 3% 5%;
 }
 .footerPart
 {
