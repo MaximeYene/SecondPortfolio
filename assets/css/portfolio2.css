@@ -1100,26 +1100,54 @@ body
 
 
 
-
-
-
-
-
-
-
-@media only screen and (max-width:600px) 
-{
-    .secondPart {
-        flex-direction: column;
-    }
-
-    .secondPart-presentation,
-    .secondPart-image {
-        width: 100%;
-    }
-    .fourthPart-presentation
+@media screen and (min-width:0px) and (max-width:320px) {
+    .secondPart
     {
         flex-direction: column;
     }
-
+    .secondPart-presentation-spec
+    {
+        width: 100%;
+        font-size: 30px;
+    }
+    .secondPart-presentation-lorem
+    {
+        width: 70%;
+        font-size: 16px;
+        margin: 3% 0;
+    }
+    .secondPart-image-img-image1 img
+    {
+        width: 300px;
+        height: auto;
+        margin-top: -8%;
+    }
+    .secondPart-image-img-image2 img
+    {
+        width: 250px;
+        margin-top: -6%;
+    }
+    .secondPart-image-img-image3 img
+    {
+        width: 200px;
+        margin-top: -3%;
+    }
+    .secondPart-image-img-image4 img
+    {
+        width: 247px;
+        height: auto;
+        margin-top: -9.5%;
+    }
+    .thirdPart-header-bottom
+    {
+        margin: 0 9%;
+        font-size: 20px;
+    }
+    .thirdPart-middle-part1
+    {
+        
+    }
+    
 }
+
+
