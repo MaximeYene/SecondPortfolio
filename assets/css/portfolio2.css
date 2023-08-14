@@ -1236,6 +1236,11 @@ body
 }
 
 @media  screen and (max-width:768px) {
+    body
+    {
+        width: 100%;
+        overflow-x: hidden;
+    }
     .secondPart
     {
         flex-direction: column;
@@ -1247,12 +1252,12 @@ body
     .secondPart-presentation-spec
     {
         width: 100%;
-        font-size: 30px;
+        font-size: 47px;
     }
     .secondPart-presentation-lorem
     {
         width: 70%;
-        font-size: 16px;
+        font-size: 20px;
         margin: 3% 0;
     }
     .secondPart-image
@@ -1299,13 +1304,33 @@ body
     .thirdPart-middle-part, .thirdPart-middle-part1{
         padding: 10%;
     }
+    .thirdPart-middle-part-spec, .thirdPart-middle-part1-spec
+    {
+        font-size: 24px;
+    }
+    .thirdPart-middle-part-lorem, .thirdPart-middle-part1-lorem
+    {
+        font-size: 20px;
+    }
+    .thirdPart-middle-part-read a, .thirdPart-middle-part1-read a
+    {
+        font-size: 22px;
+    }
     .fourthPart-presentation
     {
         flex-direction: column-reverse;
     }
+    .fourthPart-presentation-lorem-about
+    {
+        font-size: 20px;
+    }
     .fourthPart-presentation-lorem
     {
         margin-left: 0;
+    }
+    .fourthPart-presentation-lorem-paragraph-second
+    {
+        font-size: 20px;
     }
     .fourthPart-presentation-img
     {
@@ -1331,6 +1356,10 @@ body
     {
         width: 252px;
         height: 252px;
+    }
+    .fourthPart-pourcent-first div, .fourthPart-pourcent-second div, .fourthPart-pourcent-third div, .fourthPart-pourcent-fourth div
+    {
+        font-size: 22px;
     }
     .fifthPart-middle-projects
     {
