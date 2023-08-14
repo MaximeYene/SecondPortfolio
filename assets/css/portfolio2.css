@@ -132,9 +132,17 @@ html,body
 }
 .secondPart-presentation
 {
-    margin: 13% 0 5% 8%;
+    margin: 7% 0 5% 12%;
     width: 80%;
     height: max-content;
+}
+.secondPart-presentation-img
+{
+    position: relative;
+    width: 80px;
+    height: auto;
+    top: 195px;
+    right: 120px;
 }
 .secondPart-presentation-hello
 {
@@ -208,6 +216,14 @@ html,body
 {
     position: relative;
 }
+.secondPart-image-img-image0 img
+{
+    position: absolute;
+    width: 150px;
+    top: 450px;
+    right: 420px;
+    z-index: 5;
+}
 .secondPart-image-img-image1 img
 {
     position: absolute;
@@ -242,6 +258,14 @@ html,body
     margin-top: 25%;
     z-index: 4;
 }
+.secondPart-image-img-image5 img
+{
+    position: absolute;
+    width: 120px;
+    top: 170px;
+    left: 280px;
+    z-index: 5;
+}
 .secondPart-presentation-hello-svg1 
 {
     position: relative;
@@ -258,11 +282,27 @@ html,body
 {
     height: auto;
     text-align: center;
-    margin-bottom: 10%;
+}
+.thirdPart-vector
+{
+    
+    position: relative;
+    display: inline-block;
+    border: 1px solid red;
+    top: 480px;
+    right: 600px;
+    width: 3%;
+
+}
+.thirdPart-vector img
+{
+    width: 7px;
+    height: auto;
+    margin: 0 .5%;
 }
 .thirdPart-header
 {
-    margin: 5% 0;
+    margin:  0 0 5% 0;
 }
 .thirdPart-header-top
 {
@@ -394,8 +434,21 @@ html,body
 }
 .fourthPart
 {
-    margin: 5% 10%;
+    margin: 0 10%;
     height: 100%;
+}
+.fourthPart-vector
+{
+    position: relative;
+    display: inline-block;
+    border: 1px solid red;
+    width: 3%;
+    left: 1140px;
+    top: 480px;
+}
+.fourthPart-vector img
+{
+    width: 25px;
 }
 .fourthPart-presentation
 {
@@ -523,6 +576,19 @@ html,body
 .fifthPart
 {
     margin: 8% 10%;
+}
+.fifthPart-vectorLeft
+{
+    position: relative;
+    display: inline-block;
+    border: 1px solid red;
+    width: 3%;
+    top: 930px;
+    right: 100px;
+}
+.fifthPart-vectorLeft img
+{
+    width: 25px;
 }
 .fifthPart a
 {
@@ -663,9 +729,23 @@ html,body
     color: var(--primary-ruby-Red-color);
     transition: 2s;
 }
+.fifthPart-vectorRight
+{
+    position: relative;
+    width: 80px;
+    left: 1100px;
+    bottom: 480px;
+}
 .sixthPart
 {
     margin: 0 10%;
+}
+.sixthPart-vectorLeft
+{
+    position: relative;
+    width: 80px;
+    top: 550px;
+    right: 120px;
 }
 .sixthPart-first
 {
@@ -763,6 +843,13 @@ html,body
     width: 310px;
     height: auto;
     border-radius: 5px;
+}
+.sixthPart-vectorRight
+{
+    position: relative;
+    width: 80px;
+    left: 1100px;
+    bottom: 100px;
 }
 .seventhPart
 {
