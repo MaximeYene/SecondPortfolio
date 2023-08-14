@@ -76,7 +76,7 @@ html,body
 {
     color: #757B82;
     margin: 0 1%;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 700;
     line-height: 26px;
     letter-spacing: 0.02em;
@@ -138,7 +138,7 @@ html,body
 }
 .secondPart-presentation-hello
 {
-    font-size: 16px;
+    font-size: 18px;
     margin: 3% 0;
 }
 .secondPart-presentation-hello-blackColor
@@ -286,7 +286,7 @@ html,body
     margin: 0 35%;
 
     color: var(--primary-mirage-color);
-    font-size: 37px;
+    font-size: 40px;
 }
 .thirdPart-middle
 {
@@ -298,13 +298,13 @@ html,body
 }
 .thirdPart-middle-part-spec
 {
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 4%;
 }
 .thirdPart-middle-part-lorem
 {
     color: #757B82;
-    font-size: 14px;
+    font-size: 20px;
     margin-bottom: 4%;
 }
 .thirdPart-middle-part
@@ -331,13 +331,13 @@ html,body
 
 .thirdPart-middle-part1-spec
 {
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 4%;
 }
 .thirdPart-middle-part1-lorem
 {
     color: var(--primary-color);
-    font-size: 14px;
+    font-size: 20px;
     margin-bottom: 4%;
 }
 .thirdPart-middle-part1:hover .thirdPart-middle-part1-lorem,
@@ -359,7 +359,7 @@ html,body
 }
 .thirdPart-middle-part1-read a
 {
-    font-size: 16px;
+    font-size: 20px;
     text-decoration: none;
     color: var(--primary-color)
 }
@@ -388,7 +388,7 @@ html,body
 }
 .thirdPart-middle-part-read a
 {
-    font-size: 16px;
+    font-size: 22px;
     text-decoration: none;
     color: var(--primary-ruby-Red-color);
 }
@@ -452,7 +452,7 @@ html,body
 }
 .fourthPart-presentation-lorem-about
 {
-    font-size: 16px;
+    font-size: 20px;
 }
 .fourthPart-presentation-lorem-about-blackColor
 {
@@ -464,12 +464,12 @@ html,body
 }
 .fourthPart-presentation-lorem-paragraph-first
 {
-    font-size: 37px;
+    font-size: 40px;
     margin-bottom: 5%;
 }
 .fourthPart-presentation-lorem-paragraph-second
 {
-    font-size: 16px;
+    font-size:20px;
     color: #757B82;
 }
 .fourthPart-presentation-lorem-download
@@ -493,7 +493,7 @@ html,body
 }
 .fourthPart-presentation-lorem-download a
 {
-    font-size: 16px;
+    font-size: 20px;
     text-decoration: none;
     color: var(--primary-color);
 }
@@ -513,7 +513,7 @@ html,body
 .fourthPart-pourcent-first div, .fourthPart-pourcent-second div, .fourthPart-pourcent-third div, .fourthPart-pourcent-fourth div
 {
     color: var(--primary-mirage-color);
-    font-size: 18px;
+    font-size: 24px;
 }
 .fourthPart-pourcent img
 {
@@ -573,11 +573,11 @@ html,body
 }
 .fifthPart-header-about-firstPart
 {
-    font-size: 16px;
+    font-size: 20px;
 }
 .fifthPart-header-about-secondPart
 {
-    font-size: 37px;
+    font-size: 40px;
     margin-bottom: 2%;
 }
 .fifthPart-header-about-blackColor
@@ -610,20 +610,20 @@ html,body
 }
 .fifthPart-middle-projects-illustration-name
 {
-    font-size: 16px;
+    font-size: 22px;
     margin: 4% 5%;
     color: var(--primary-ruby-Red-color);
 }
 .fifthPart-middle-projects-illustration-compaign
 {
-    font-size: 20px;
+    font-size: 26px;
     margin: 0 5%;
     margin-bottom: 4%;
     color: var(--primary-mirage-color);
 }
 .fifthPart-middle-projects-illustration-lorem
 {
-    font-size: 14px;
+    font-size: 20px;
     margin: 0 5%;
     margin-bottom: 4%;
     color: #757B82;
@@ -631,7 +631,7 @@ html,body
 .fifthPart-middle-projects-illustration-views
 {
     position: relative;
-    font-size: 16px;
+    font-size: 20px;
     margin: 0 5%;
     margin-bottom: 4%;
 }
@@ -674,7 +674,7 @@ html,body
 }
 .sixthPart-header
 {
-    font-size: 16px;
+    font-size: 20px;
 }
 .sixthPart-header-blackColor
 {
@@ -686,7 +686,7 @@ html,body
 }
 .sixthPart-title
 {
-    font-size: 37px;
+    font-size: 40px;
 }
 .sixthPart-nav
 {
@@ -698,7 +698,7 @@ html,body
     text-decoration: none;
     color: #000000;
     margin: 0 .3%;
-    font-size: 16px;
+    font-size: 20px;
 }
 .sixthPart-nav a:hover, .sixthPart-nav-primary
 {
@@ -721,11 +721,11 @@ html,body
 }
 .sixthPart-middle-partOne-img-function, .sixthPart-middle-partTwo-img-function
 {
-    font-size: 16px;
+    font-size: 20px;
 }
 .sixthPart-middle-partOne-img-spec, .sixthPart-middle-partTwo-img-spec
 {
-    font-size: 12px;
+    font-size: 16px;
     color: #757B82;
     margin: 2% 0;
 }
@@ -780,7 +780,7 @@ html,body
 }
 .seventhPart-header-name
 {
-    font-size: 16px;
+    font-size: 20px;
 }
 .seventhPart-header-name-blackColor
 {
@@ -792,7 +792,7 @@ html,body
 }
 .seventhPart-header-title
 {
-    font-size: 37px;
+    font-size: 40px;
 }
 .seventhPart-middle
 {
@@ -801,7 +801,7 @@ html,body
 .seventhPart-middle-PartOne-lorem, .seventhPart-middle-PartTwo-lorem
 {
     color: #757B82;
-    font-size: 16px;
+    font-size: 20px;
     margin: 3%;
     padding: 3%;
     border: 1px solid #93939321;
@@ -811,7 +811,7 @@ html,body
 }
 .seventhPart-middle-PartOne-lorem-img img, .seventhPart-middle-PartTwo-lorem-img img
 {
-    height: 16px;
+    height: 20px;
     width: 16px;
     color: #0F172A;
 }
@@ -837,12 +837,12 @@ html,body
 }
 .seventhPart-middle-PartOne-img-PartTwo-name, .seventhPart-middle-PartTwo-img-partTwo-name
 {
-    font-size: 18px;
+    font-size: 20px;
     margin-top: 20%;
 }
 .seventhPart-middle-PartOne-img-partTwo-function, .seventhPart-middle-PartTwo-img-partTwo-function
 {
-    font-size: 14px;
+    font-size: 18px;
     color: #757B82; 
     margin-top: 2%; 
 }
@@ -875,7 +875,7 @@ html,body
 }
 .eightPart-formular-header-name
 {
-    font-size: 16px;
+    font-size: 20px;
 }
 .eightPart-formular-header-name-blackColor
 {
@@ -887,7 +887,7 @@ html,body
 }
 .eightPart-formular-header-title
 {
-    font-size: 37px;
+    font-size: 40px;
     margin: 3%;
 }
 .eightPart-formular-header-title-border
@@ -913,6 +913,7 @@ html,body
 {
     width: 100%;
     margin: 4% 0;
+    font-size: 20px;
     padding: 0;
     line-height: 2em;
     border-top: none;
@@ -938,6 +939,7 @@ html,body
 {
     width: 100%;
     line-height: 2em;
+    font-size: 20px;
     border-top: none;
     border-left: none;
     border-right: none;
@@ -963,7 +965,7 @@ html,body
 .eightPart-formular-footer
 {
     width: max-content;
-    font: 18px;
+    font: 20px;
     background-color: var(--primary-ruby-Red-color);
     padding: 2%;
 }
@@ -989,7 +991,7 @@ html,body
 }
 .ninethPart-header-name
 {
-    font-size: 16px;
+    font-size: 20px;
     margin: 1%;
 }
 .ninethPart-header-name-blackColor
@@ -1002,7 +1004,7 @@ html,body
 }
 .ninethPart-header-title
 {
-    font-size: 37px;
+    font-size: 40px;
 }
 .ninethPart-body
 {
@@ -1022,19 +1024,19 @@ html,body
 }
 .ninethPart-middle-title
 {
-    font-size: 16px;
+    font-size: 20px;
     color: var(--primary-ruby-Red-color);
     margin: 3% 5%;
 }
 .ninethPart-middle-name
 {
-    font-size: 25px;
+    font-size: 30px;
     color: var(--primary-mirage-color);
     margin: 3% 5%;
 }
 .ninethPart-middle-lorem
 {
-    font-size: 14px;
+    font-size: 20px;
     color: #757B82;
     margin: 3% 5%;
 }
@@ -1044,7 +1046,7 @@ html,body
 }
 .ninethPart-middle-footer a
 {
-    font-size: 16px;
+    font-size: 20px;
     text-decoration: none;
     color: var(--primary-ruby-Red-color);
     margin: 3% 5%;
@@ -1057,7 +1059,7 @@ html,body
 }
 .footerPart-header
 {
-    font-size: 37px;
+    font-size: 40px;
 }
 .footerPart-header-redColor
 {
@@ -1078,7 +1080,7 @@ html,body
 .footerPart-body a
 {
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
     color: var(--primary-color);
     border-right: 2px solid var(--primary-color);
     padding: 0 .5%;
@@ -1115,12 +1117,10 @@ html,body
     .secondPart-presentation-spec
     {
         width: 100%;
-        font-size: 30px;
     }
     .secondPart-presentation-lorem
     {
         width: 70%;
-        font-size: 16px;
         margin: 3% 0;
     }
     .secondPart-image
@@ -1252,7 +1252,6 @@ html,body
     .secondPart-presentation-spec
     {
         width: 100%;
-        font-size: 47px;
     }
     .secondPart-presentation-lorem
     {
@@ -1304,33 +1303,14 @@ html,body
     .thirdPart-middle-part, .thirdPart-middle-part1{
         padding: 10%;
     }
-    .thirdPart-middle-part-spec, .thirdPart-middle-part1-spec
-    {
-        font-size: 24px;
-    }
-    .thirdPart-middle-part-lorem, .thirdPart-middle-part1-lorem
-    {
-        font-size: 20px;
-    }
-    .thirdPart-middle-part-read a, .thirdPart-middle-part1-read a
-    {
-        font-size: 22px;
-    }
     .fourthPart-presentation
     {
         flex-direction: column-reverse;
     }
     .fourthPart-presentation-lorem-about
-    {
-        font-size: 20px;
-    }
     .fourthPart-presentation-lorem
     {
         margin-left: 0;
-    }
-    .fourthPart-presentation-lorem-paragraph-second
-    {
-        font-size: 20px;
     }
     .fourthPart-presentation-img
     {
@@ -1376,6 +1356,10 @@ html,body
     .sixthPart-middle-partOne-img-image img, .sixthPart-middle-partTwo-img-image img
     {
         width: 93%;
+    }
+    .eightPart
+    {
+        margin-bottom: 15%;
     }
     .eightPart-img img
     {
