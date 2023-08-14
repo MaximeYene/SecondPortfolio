@@ -469,7 +469,7 @@ html,body
 }
 .fourthPart-presentation-lorem-paragraph-second
 {
-    font-size:20px;
+    font-size: 20px;
     color: #757B82;
 }
 .fourthPart-presentation-lorem-download
@@ -1182,6 +1182,10 @@ html,body
     .fourthPart-presentation-lorem-download
     {
         margin-top: 3%;
+    }
+    .fourthPart-presentation-lorem-paragraph-second
+    {
+        font-size: 26px;
     }
     .fourthPart-presentation-img-firstPart
     {
