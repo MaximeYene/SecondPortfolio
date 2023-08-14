@@ -143,6 +143,7 @@ html,body
     height: auto;
     top: 195px;
     right: 120px;
+    opacity: 0.1;
 }
 .secondPart-presentation-hello
 {
@@ -230,6 +231,7 @@ html,body
     width: 400px;
     height: auto;
     margin-top: 10%;
+    margin-left: -1.5%;
     z-index: 1;
 }
 .secondPart-image-img-image2 img
@@ -282,16 +284,17 @@ html,body
 {
     height: auto;
     text-align: center;
+    margin-top: -60px;
 }
 .thirdPart-vector
 {
     
     position: relative;
     display: inline-block;
-    border: 1px solid red;
     top: 480px;
     right: 600px;
     width: 3%;
+    opacity: 0.2;
 
 }
 .thirdPart-vector img
@@ -441,10 +444,10 @@ html,body
 {
     position: relative;
     display: inline-block;
-    border: 1px solid red;
     width: 3%;
     left: 1140px;
     top: 480px;
+    opacity: 0.2;
 }
 .fourthPart-vector img
 {
@@ -575,16 +578,16 @@ html,body
 }
 .fifthPart
 {
-    margin: 8% 10%;
+    margin: -20% 10% 0 10%;
 }
 .fifthPart-vectorLeft
 {
     position: relative;
     display: inline-block;
-    border: 1px solid red;
     width: 3%;
     top: 930px;
     right: 100px;
+    opacity: 0.2;
 }
 .fifthPart-vectorLeft img
 {
@@ -735,6 +738,7 @@ html,body
     width: 80px;
     left: 1100px;
     bottom: 480px;
+    opacity: 0.1;
 }
 .sixthPart
 {
@@ -746,6 +750,7 @@ html,body
     width: 80px;
     top: 550px;
     right: 120px;
+    opacity: 0.1;
 }
 .sixthPart-first
 {
@@ -850,15 +855,25 @@ html,body
     width: 80px;
     left: 1100px;
     bottom: 100px;
+    opacity: 0.1;
 }
 .seventhPart
 {
     background-color: #F2F6F7;
 }
+.seventhPart-quoteLeft
+{
+    position: relative;
+    top: 110px;
+    left: 50px;
+}
+.seventhPart-quoteLeft img
+{
+    width: 100px;
+}
 .seventhPart-body
 {
-	margin: 10% 10%;
-    padding: 5% 0;
+	margin: 0 10%;
 }
 .seventhPart-header
 {
@@ -946,9 +961,30 @@ html,body
 {
     margin-left: 3%;
 }
+.seventhPart-quoteRight
+{
+    position: relative;
+    left: 1200px;
+}
+.seventhPart-quoteRight img
+{
+    width: 100px;
+}
+.seventhPart-vectorBottomRight
+{
+    position: relative;
+    width: 3%;
+    left: 1250px;
+    top: 180px;
+    opacity: 0.2;
+}
+.seventhPart-vectorBottomRight img
+{
+    width: 7px;
+}
 .eightPart
 {
-    margin: 0 10%;
+    margin: 10%;
     display: flex;
     justify-content: space-around;
 }
@@ -1069,7 +1105,32 @@ html,body
 }
 .ninethPart
 {
-    margin: 8% 10%;
+    margin: -10% 10% 10% 10%;
+}
+.ninethPart-vectorLeftRight
+{
+    position: relative;
+    width: 3%;
+    left: 1125px;
+    top: 850px;
+    opacity: 0.2;
+}
+.ninethPart-vectorLeftRight img
+{
+    width: 7px;
+}
+.ninethPart-vectorLeft
+{
+    position: relative;
+    width: 3%;
+    right: 80px;
+    bottom: 150px;
+    margin-bottom: -450px;
+    opacity: 0.2;
+}
+.ninethPart-vectorLeft img
+{
+    width: 25px;
 }
 .ninethPart-header
 {
