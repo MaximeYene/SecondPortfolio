@@ -1253,140 +1253,6 @@ html,body
 
 
 
-@media screen and (min-width:769px) and (max-width:1000px) {
-    .secondPart
-    {
-        flex-direction: column;
-    }
-    .secondPart-presentation
-    {
-        margin: 0 10% 10% 10%;
-    }
-    .secondPart-presentation-spec
-    {
-        width: 100%;
-    }
-    .secondPart-presentation-lorem
-    {
-        width: 70%;
-        margin: 3% 0;
-    }
-    .secondPart-image
-    {
-        margin-left: 0;
-        text-align: center;
-    }
-    .secondPart-image-img
-    {
-        right: 110px;
-    }
-    .secondPart-image-img-image1 img
-    {
-        width: 300px;
-        height: auto;
-        margin-top: -8%;
-    }
-    .secondPart-image-img-image2 img
-    {
-        width: 250px;
-        margin-top: -5%;
-        margin-left: 3.5%;
-    }
-    .secondPart-image-img-image3 img
-    {
-        width: 200px;
-        margin-top: -2%;
-        margin-left: 7%;
-    }
-    .secondPart-image-img-image4 img
-    {
-        width: 256px;
-        height: auto;
-        margin-top: -9.5%;
-    }
-    .thirdPart-header-bottom
-    {
-        margin: 0 25%;
-    }
-    .thirdPart-middle
-    {
-        flex-direction: column;
-    }
-    .thirdPart-middle-part, .thirdPart-middle-part1{
-        padding: 10%;
-    }
-    .fourthPart-presentation
-    {
-        flex-direction: column-reverse;
-    }
-    .fourthPart-presentation-lorem
-    {
-        margin-left: 0;
-    }
-    .fourthPart-presentation-img
-    {
-        margin-top: 5%;
-    }
-    .fourthPart-presentation-lorem-download
-    {
-        margin-top: 3%;
-    }
-    .fourthPart-presentation-lorem-paragraph-second
-    {
-        font-size: 26px;
-    }
-    .fourthPart-presentation-img-firstPart
-    {
-        margin-right: 25%;
-    }
-    .fourthPart-presentation-img-secondPart
-    {
-        display: flex;
-    }
-    .fourthPart-pourcent
-    {
-        flex-wrap: wrap;
-    }
-    .fourthPart-pourcent img
-    {
-        width: 252px;
-        height: 252px;
-    }
-    .fifthPart-middle-projects
-    {
-        flex-direction: column;
-    }
-    .fifthPart-middle-projects-illustration-img img
-    {
-        width: 99%;
-    }
-    .sixthPart-middle-partOne, .sixthPart-middle-partTwo
-    {
-        flex-direction: column;
-    }
-    .sixthPart-middle-partOne-img-image img, .sixthPart-middle-partTwo-img-image img
-    {
-        width: 93%;
-    }
-    .eightPart-img img
-    {
-        width: 73%;
-    }
-    .ninethPart-body
-    {
-        flex-direction: column;
-    }
-    .ninethPart-middle-img img
-    {
-        width: 98%;
-    }
-    .ninethPart-middle-img
-    {
-        text-align: center;
-    }
-    
-}
-
 @media  screen and (max-width:768px) {
     html, body
     {
@@ -1396,10 +1262,15 @@ html,body
     .secondPart
     {
         flex-direction: column;
+        height: 750px;
     }
     .secondPart-presentation
     {
         margin: 0 10% 10% 10%;
+    }
+    .secondPart-presentation-img
+    {
+        right: 13%;
     }
     .secondPart-presentation-spec
     {
@@ -1420,6 +1291,11 @@ html,body
     {
         right: 110px;
     }
+    .secondPart-image-img-image0 img
+    {
+        top: 150px;
+        right: 45%;
+    }
     .secondPart-image-img-image1 img
     {
         width: 300px;
@@ -1440,9 +1316,21 @@ html,body
     }
     .secondPart-image-img-image4 img
     {
-        width: 256px;
+        width: 240px;
         height: auto;
         margin-top: -9.5%;
+    }
+    .secondPart-image-img-image5 img
+    {
+        width: 106px;
+        top: -30px;
+        left: 80%;
+    }
+    .thirdPart-vector
+    {
+        width: 5%;
+        right: 330px;
+        top: 400px;
     }
     .thirdPart-header-bottom
     {
@@ -1454,6 +1342,10 @@ html,body
     }
     .thirdPart-middle-part, .thirdPart-middle-part1{
         padding: 10%;
+    }
+    .fourthPart-vector
+    {
+        left: 620px;
     }
     .fourthPart-presentation
     {
@@ -1467,6 +1359,8 @@ html,body
     .fourthPart-presentation-img
     {
         margin-top: 5%;
+        display: flex;
+        flex-direction: column-reverse;
     }
     .fourthPart-presentation-lorem-download
     {
@@ -1474,11 +1368,22 @@ html,body
     }
     .fourthPart-presentation-img-firstPart
     {
+        width: 50%;
         margin-right: 25%;
     }
     .fourthPart-presentation-img-secondPart
     {
+        width: 250%;
         display: flex;
+        margin: 0;
+    }
+    .fourthPart-presentation-img-secondPart-uno, .fourthPart-presentation-img-secondPart-secondo
+    {
+        width: 50%;
+    }
+    .fourthPart-presentation-img-secondPart-uno img, .fourthPart-presentation-img-secondPart-secondo img
+    {
+        width: 70%;
     }
     .fourthPart-pourcent
     {
@@ -1486,8 +1391,8 @@ html,body
     }
     .fourthPart-pourcent img
     {
-        width: 252px;
-        height: 252px;
+        width: 50%;
+        height: auto;
     }
     .fourthPart-pourcent-first div, .fourthPart-pourcent-second div, .fourthPart-pourcent-third div, .fourthPart-pourcent-fourth div
     {
@@ -1504,6 +1409,11 @@ html,body
     .sixthPart-middle-partOne, .sixthPart-middle-partTwo
     {
         flex-direction: column;
+    }
+    .fifthPart-footer
+    {
+        margin: -7% 36% 5% 36%;
+        padding: 2%;
     }
     .sixthPart-middle-partOne-img-image img, .sixthPart-middle-partTwo-img-image img
     {
