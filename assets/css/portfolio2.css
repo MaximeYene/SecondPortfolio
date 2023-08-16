@@ -1287,6 +1287,7 @@ html,body
         background-color: blueviolet;
         overflow: hidden;
         transition: .5s;
+        z-index: 5;
     }
     .navbar-join
     {
@@ -1296,6 +1297,10 @@ html,body
     {
         flex-direction: column;
         height: 750px;
+    }
+    .secondPart-presentation-hello-svg1, .secondPart-presentation-hello-svg2
+    {
+        z-index: 1;
     }
     .secondPart-presentation
     {
