@@ -63,7 +63,7 @@ html,body
     color: var(--primary-mirage-color);
 }
 
-.navbar-list 
+#navbarList 
 {
     display: flex;
     justify-content: space-around;
@@ -72,7 +72,7 @@ html,body
 
 }
 
-.navbar-list a 
+#navbarList a 
 {
     color: #757B82;
     margin: 0 1%;
@@ -83,12 +83,12 @@ html,body
     transition: .5s;
 }
 
-.navbar-list a:hover,
-.navbar-list a.navbar-list-home 
+#navbarList a:hover,
+#navbarList a.navbar-list-home 
 {
     color: var(--primary-ruby-Red-color);
 }
-.navbar svg
+.menu-icon
 {
     display: none;
 }
@@ -1259,6 +1259,39 @@ html,body
         width: 100%;
         overflow-x: hidden;
     }
+    .navbar-home
+    {
+        margin-left: 40%;
+    }
+    .navbar-home a
+    {
+        font-size: 40px;
+    }
+    .menu-icon
+    {
+        position: absolute;
+        right: 95%;
+        display: block;
+        width: 35px;
+        height: auto;
+    }
+    #navbarList
+    {
+        width: 100%;
+        flex-direction: column;
+        text-align: right;
+        margin: 0;
+        position: absolute;
+        text-align: left;
+        top: 23%;
+        background-color: blueviolet;
+        overflow: hidden;
+        transition: .5s;
+    }
+    .navbar-join
+    {
+        width: 12%;
+    }
     .secondPart
     {
         flex-direction: column;
@@ -1332,9 +1365,13 @@ html,body
         right: 330px;
         top: 400px;
     }
+    .thirdPart-header-top
+    {
+        margin: 0 30%;
+    }
     .thirdPart-header-bottom
     {
-        margin: 0 25%;
+        margin: 0 20%;
     }
     .thirdPart-middle
     {
@@ -1351,7 +1388,6 @@ html,body
     {
         flex-direction: column-reverse;
     }
-    .fourthPart-presentation-lorem-about
     .fourthPart-presentation-lorem
     {
         margin-left: 0;
@@ -1373,7 +1409,7 @@ html,body
     }
     .fourthPart-presentation-img-secondPart
     {
-        width: 250%;
+        width: 240%;
         display: flex;
         margin: 0;
     }
@@ -1383,7 +1419,7 @@ html,body
     }
     .fourthPart-presentation-img-secondPart-uno img, .fourthPart-presentation-img-secondPart-secondo img
     {
-        width: 70%;
+        width: 60%;
     }
     .fourthPart-pourcent
     {
@@ -1425,7 +1461,11 @@ html,body
     }
     .eightPart-img img
     {
-        width: 73%;
+        width: 85%;
+    }
+    .ninethPart
+    {
+        margin: -75% 10% 10% 10%;
     }
     .ninethPart-body
     {
@@ -1438,5 +1478,116 @@ html,body
     .ninethPart-middle-img
     {
         text-align: center;
+    }
+    .footerPart
+    {
+        padding: 15%;
     }   
 }
+
+
+
+
+@media only screen and (min-width:769px) and (max-width:1100px) {
+    .navbar
+    {
+        align-items: center;
+    }
+    .navbar-join
+    {
+        width: 12%;
+    }
+    .secondPart
+    {
+        height: 540px;
+    }.secondPart-presentation-spec
+    {
+        font-size: 34px;
+    }
+    .secondPart-image-img-image0 img
+    {
+        right: 250px;
+    }
+    .thirdPart-header-bottom
+    {
+        margin: 0 20%;
+    }
+    .fourthPart-presentation
+    {
+        flex-direction: column-reverse;
+    }
+    .fourthPart-presentation-lorem
+    {
+        margin-left: 0;
+    }
+    .fourthPart-presentation-img
+    {
+        margin-top: 10%;
+    }
+    .fourthPart-presentation-img-firstPart
+    {
+        margin-right: 50%;
+    }
+    .fourthPart-pourcent
+    {
+        display: block;
+    }
+    .fifthPart-middle-projects
+    {
+        flex-direction: column;
+    }
+    .fifthPart-middle-projects-illustration-img img
+    {
+        width: 99%;
+    }
+    .sixthPart-middle-partOne, .sixthPart-middle-partTwo
+    {
+        flex-direction: column;
+    }
+    .fifthPart-footer
+    {
+        margin: -7% 36% 5% 36%;
+        padding: 2%;
+    }
+    .sixthPart-middle-partOne-img-image img, .sixthPart-middle-partTwo-img-image img
+    {
+        width: 93%;
+    }
+    .eightPart
+    {
+        margin-bottom: 50%;
+    }
+    .eightPart-img img
+    {
+        width: 85%;
+    }
+    .ninethPart
+    {
+        margin: -75% 10% 10% 10%;
+    }
+    .ninethPart-vectorLeft
+    {
+        right: 60px;
+    }
+    .seventhPart-quoteRight
+    {
+        left: 800px;
+    }
+    .ninethPart-body
+    {
+        flex-direction: column;
+    }
+    .ninethPart-middle-img img
+    {
+        width: 98%;
+    }
+    .ninethPart-middle-img
+    {
+        text-align: center;
+    }
+    .footerPart
+    {
+        padding: 15%;
+    }   
+}
+ 
