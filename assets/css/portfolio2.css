@@ -69,6 +69,7 @@ html,body
     justify-content: space-around;
     width: 40%;
     text-align: center;
+    max-height: inherit;
 
 }
 
@@ -132,7 +133,7 @@ html,body
 }
 .secondPart-presentation
 {
-    margin: 7% 0 5% 12%;
+    margin: 0 0 5% 12%;
     width: 80%;
     height: max-content;
 }
@@ -216,13 +217,21 @@ html,body
 .secondPart-image-img
 {
     position: relative;
+    height: 100%;
+}
+.secondPart-image-img-image0 
+{
+    position: absolute;
+    width: 36%;
+    height: 13%;
+    top: 83%;
+    right: 81%;
+    z-index: 5;
 }
 .secondPart-image-img-image0 img
 {
     position: absolute;
-    width: 150px;
-    top: 450px;
-    right: 420px;
+    width: 180px;
     z-index: 5;
 }
 .secondPart-image-img-image1 img
@@ -255,17 +264,16 @@ html,body
 .secondPart-image-img-image4 img
 {
     position: absolute;
-    width: 347px;
-    height: auto;
-    margin-top: 25%;
+    width: auto;
+    height: 100%;
     z-index: 4;
 }
 .secondPart-image-img-image5 img
 {
     position: absolute;
     width: 120px;
-    top: 170px;
-    left: 280px;
+    top: 90px;
+    left: 300px;
     z-index: 5;
 }
 .secondPart-presentation-hello-svg1 
@@ -1261,7 +1269,8 @@ html,body
     }
     .navbar-home
     {
-        margin-left: 40%;
+        width: 100%;
+        text-align: center;
     }
     .navbar-home a
     {
@@ -1291,7 +1300,7 @@ html,body
     }
     .navbar-join
     {
-        width: 12%;
+        width: max-content;
     }
     .secondPart
     {
@@ -1313,6 +1322,7 @@ html,body
     .secondPart-presentation-spec
     {
         width: 100%;
+        font-size: 30px;
     }
     .secondPart-presentation-lorem
     {
@@ -1324,15 +1334,26 @@ html,body
     {
         margin-left: 0;
         text-align: center;
+        height: 100%;
     }
     .secondPart-image-img
     {
-        right: 110px;
+        height: 100%;
+        width: 55%;
+    }
+    .secondPart-image-img-image0 
+    {
+        position: absolute;
+        width: 17%;
+        height: 13%;
+        top: 83%;
+        right: 43%;
+        z-index: 5;
     }
     .secondPart-image-img-image0 img
     {
-        top: 150px;
-        right: 45%;
+        position: relative;
+        width: 120px;
     }
     .secondPart-image-img-image1 img
     {
@@ -1354,15 +1375,23 @@ html,body
     }
     .secondPart-image-img-image4 img
     {
-        width: 240px;
-        height: auto;
-        margin-top: -9.5%;
+        width: auto;
+        height: 100%;
     }
-    .secondPart-image-img-image5 img
+    .secondPart-image-img-image5 
     {
-        width: 106px;
-        top: -30px;
-        left: 80%;
+    position: inherit;
+    width: 24%;
+    height: auto;
+    margin-left: 69%;
+    }
+    .secondPart-image-img-image5 img 
+    {
+        position: absolute;
+        width: 100px;
+        top: 0px;
+        left: 100px;
+        z-index: 5;
     }
     .thirdPart-vector
     {
@@ -1377,6 +1406,7 @@ html,body
     .thirdPart-header-bottom
     {
         margin: 0 20%;
+        font-size: 30px;
     }
     .thirdPart-middle
     {
@@ -1389,42 +1419,49 @@ html,body
     {
         left: 620px;
     }
+    .fourthPart-presentation-lorem-paragraph-first {
+        font-size: 30px;
+    }
     .fourthPart-presentation
     {
         flex-direction: column-reverse;
+
     }
     .fourthPart-presentation-lorem
     {
         margin-left: 0;
-    }
-    .fourthPart-presentation-img
-    {
-        margin-top: 5%;
-        display: flex;
-        flex-direction: column-reverse;
+        margin-bottom: 10%;
     }
     .fourthPart-presentation-lorem-download
     {
         margin-top: 3%;
     }
+    .fourthPart-presentation-img
+    {
+        flex-direction: column;
+        width: 100%;
+    }
     .fourthPart-presentation-img-firstPart
     {
-        width: 50%;
-        margin-right: 25%;
+        width: 100%;
+        height: auto;
+    }
+    .fourthPart-presentation-img-firstPart img
+    {
+        width: 100%;
+        margin: 0;
+        padding: 0;
     }
     .fourthPart-presentation-img-secondPart
     {
-        width: 240%;
-        display: flex;
+        width: 100%;
         margin: 0;
-    }
-    .fourthPart-presentation-img-secondPart-uno, .fourthPart-presentation-img-secondPart-secondo
-    {
-        width: 50%;
+        padding: 0;
+        height: auto;
     }
     .fourthPart-presentation-img-secondPart-uno img, .fourthPart-presentation-img-secondPart-secondo img
     {
-        width: 60%;
+        width: 100%;
     }
     .fourthPart-pourcent
     {
@@ -1439,6 +1476,10 @@ html,body
     {
         font-size: 22px;
     }
+    .fifthPart-header-about-secondPart
+    {
+        font-size: 30px;
+    }
     .fifthPart-middle-projects
     {
         flex-direction: column;
@@ -1447,13 +1488,17 @@ html,body
     {
         width: 99%;
     }
+    .sixthPart-title
+    {
+        margin: 5% 0;
+    }
     .sixthPart-middle-partOne, .sixthPart-middle-partTwo
     {
         flex-direction: column;
     }
     .fifthPart-footer
     {
-        margin: -7% 36% 5% 36%;
+        margin: -10% 25% 5% 25%;
         padding: 2%;
     }
     .sixthPart-middle-partOne-img-image img, .sixthPart-middle-partTwo-img-image img
@@ -1463,10 +1508,20 @@ html,body
     .eightPart
     {
         margin-bottom: 15%;
+        flex-direction: column;
+    }
+    .eightPart-img
+    {
+        width: 100%;
     }
     .eightPart-img img
     {
-        width: 85%;
+        width: 100%;
+    }
+    .eightPart-formular
+    {
+        width: 100%;
+        margin-top: 10%;
     }
     .ninethPart
     {
@@ -1509,10 +1564,6 @@ html,body
     {
         font-size: 34px;
     }
-    .secondPart-image-img-image0 img
-    {
-        right: 250px;
-    }
     .thirdPart-header-bottom
     {
         margin: 0 20%;
@@ -1527,11 +1578,36 @@ html,body
     }
     .fourthPart-presentation-img
     {
+        flex-direction: column;
+        width: 100%;
         margin-top: 10%;
+    }
+    .secondPart-image {
+        width: 100%;
+        margin-left: 0;
+        text-align: left;
+        padding-right: 30%;
     }
     .fourthPart-presentation-img-firstPart
     {
-        margin-right: 50%;
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+    .fourthPart-presentation-img-firstPart img
+    {
+        width: 100%;
+        margin: 0;
+    }
+    .fourthPart-presentation-img-secondPart
+    {
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+    .fourthPart-presentation-img-secondPart-uno img, .fourthPart-presentation-img-secondPart-secondo img
+    {
+        width: 100%;
     }
     .fourthPart-pourcent
     {
@@ -1560,11 +1636,21 @@ html,body
     }
     .eightPart
     {
-        margin-bottom: 50%;
+        margin-bottom: 15%;
+        flex-direction: column;
+    }
+    .eightPart-img
+    {
+        width: 100%;
     }
     .eightPart-img img
     {
-        width: 85%;
+        width: 100%;
+    }
+    .eightPart-formular
+    {
+        width: 100%;
+        margin-top: 10%;
     }
     .ninethPart
     {
