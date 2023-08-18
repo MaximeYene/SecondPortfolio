@@ -1271,6 +1271,7 @@ html,body
     {
         width: 100%;
         text-align: center;
+        margin-left: 10%;
     }
     .navbar-home a
     {
@@ -1564,6 +1565,13 @@ html,body
     {
         font-size: 34px;
     }
+    .secondPart-image 
+    {
+        width: 100%;
+        margin-left: 0;
+        text-align: left;
+        padding-right: 30%;
+    }
     .thirdPart-header-bottom
     {
         margin: 0 20%;
@@ -1578,36 +1586,35 @@ html,body
     }
     .fourthPart-presentation-img
     {
-        flex-direction: column;
         width: 100%;
         margin-top: 10%;
     }
-    .secondPart-image {
-        width: 100%;
-        margin-left: 0;
-        text-align: left;
-        padding-right: 30%;
-    }
     .fourthPart-presentation-img-firstPart
     {
-        width: 100%;
-        height: auto;
-        margin: 0;
+        width: 70%;
     }
     .fourthPart-presentation-img-firstPart img
     {
         width: 100%;
-        margin: 0;
     }
     .fourthPart-presentation-img-secondPart
     {
+        width: 30%;
+    }
+    .fourthPart-presentation-img-secondPart-uno
+    {
         width: 100%;
-        height: auto;
-        margin: 0;
+        height: 35%;
+    }
+    .fourthPart-presentation-img-secondPart-secondo
+    {
+        width: 100%;
+        height: 50%;
     }
     .fourthPart-presentation-img-secondPart-uno img, .fourthPart-presentation-img-secondPart-secondo img
     {
         width: 100%;
+        height: auto;
     }
     .fourthPart-pourcent
     {
@@ -1654,7 +1661,7 @@ html,body
     }
     .ninethPart
     {
-        margin: -75% 10% 10% 10%;
+        margin: -15% 10% 10% 10%;
     }
     .ninethPart-vectorLeft
     {
